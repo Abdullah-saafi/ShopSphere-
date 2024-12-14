@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+:root{
+    --primary-color: #003366;
+    --secondary-color: #66b2ff;
+}
+
+.nav{
+    width:100% ;
+    
+}
+.nav-bar1{
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    height: 65px;
+    justify-content: space-evenly;
+}
+.logo{
+    margin-left: 10px;
+}
+
+.logo img{
+    height: 60px;
+    width: 70px;
+    margin-top: -15px;
+    margin-left: 25px;
+}
+
+.logo p{
+    MARGIN-LEFT: 0px;
+    FONT-SIZE: 20PX;
+    color: #adc3c6;
+    margin-top: -25px;
+    font-style: italic;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.logo-s{
+    color: white;
+        font-family: sans-serif;
+}
+
+.location{
+    color: white;
+    margin-left: 20px;
+    font-size: 24px;
+ 
+    padding: 10px;
+}
+.location p{
+    margin-bottom: px;
+    font-size: 14px;
+    text-align: center;
+}
+.location h6{
+    font-size: 20px;
+}
+.search-bar{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.search-bar input{
+    border-radius: 7px;
+    padding: 15px;
+    width: 90%;
+}
+.search-bar button{
+    border-radius: 10px;
+    padding: 12px;
+    margin-left: -5px;
+    background-color: rgb(177, 54, 54);
+}
+.search-bar button i{
+    font-size: 18px;
+    color: white;
+}
+
+.sign-in{
+    padding: 7px;
+    color: white;
+    font-size: 18px;
+}
+.cart{
+    color: white;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+.cart-logo{
+    font-size: 38px;
+    
+}
+
+.cart-txt{
+    font-weight: 500;
+    margin-left: 2px;
+}

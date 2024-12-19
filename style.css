@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
-    font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
   
 }
+
 a{
     color: inherit;
     text-decoration: none;
@@ -17,6 +17,7 @@ a{
 :root{
     --primary-color: #003366;
     --secondary-color: #1275da;
+    --Third-color: #248597;
 }
 
 .nav{
@@ -98,6 +99,14 @@ a{
     color: white;
     font-size: 18px;
     text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.order{
+    padding: 7px;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
     text-underline-offset: 6px;
 }
 .cart{
@@ -252,4 +261,113 @@ a{
     /* margin-left: 20px; */
     background-color: white;
     color: black;
+}
+
+.category{
+    display: flex;
+    max-width: 100vw;
+    overflow: hidden;
+    margin: 20px 30px;
+    justify-content: space-between;
+    /* background-color: #e3e6e6; */
+
+}
+
+.category1-imgs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    width:310px ;
+    height: 320px;
+}
+
+.category-card1{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.category1{
+    width:  350px;
+    max-height: 430px;
+    overflow: hidden;
+    background-color: rgba(203, 192, 192, 0.236);
+    
+    padding: 20px;
+
+
+}
+.game-img {
+    width:310px ;
+    height: 320px;
+    background-size: cover;
+    background-image: url(img/game-station.jpg);
+    background-position: center;
+
+}
+.toys{
+    width:310px ;
+    height: 320px;
+    background-size: cover;
+    background-image: url(img/toys.png);
+    background-position: center;
+
+}
+.pc{
+    width:310px ;
+    height: 320px;
+    background-size: cover;
+    background-image: url(img/pc.png);
+    background-position: center;
+}
+
+.category2{
+    max-width:  350px;
+    max-height: 430px;
+    margin-left: 20px;
+    background-color: rgba(203, 192, 192, 0.236);
+
+    padding: 20px;
+    
+}
+
+.img{
+    background-image: url(img/);
+}
+
+.category-card1 figcaption{
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.category h2{
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+.category p{
+    padding: 10px 0px;
+    font-size: 14px;
+    color: var(--Third-color);
+    font-weight: 500;
+}
+
+.holiday-special{
+    margin: 20px 30px;
+    justify-content: space-between;
+    background-color: var);
+}
+.holiday-deal1{
+    width: 200px;
+    height: 200px;
+}
+
+.holiday-deal1 .img{
+    background-image: url(img/holiday-deal.png);
+    /* width: 200px; */
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50% 50% 0px 0px;
 }

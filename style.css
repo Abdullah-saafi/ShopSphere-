@@ -98,9 +98,7 @@ a{
     padding: 7px;
     font-weight: 700;
     color: white;
-    font-size: 18px;
-    text-decoration: underline;
-    text-underline-offset: 6px;
+    font-size: 21px;
 }
 
 .order{
@@ -620,7 +618,19 @@ a{
     background-color: black;
     color: white;
     padding: 20px 0px;
+  
+ 
     
+}
+
+.final-footer-links{
+    /* margin: 0px auto; */
+    display: flex;
+    justify-content: center;
+}
+.final-footer-links p{
+    position: relative;
+    left: 450px;
 }
 
 .final-footer ol {
@@ -632,3 +642,105 @@ a{
 .final-footer ol li{
     margin-left: 15px;
 }
+
+
+
+ /* Log-in Page Styling Started */
+
+    .login-page{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .login-page-data{
+        display: flex;
+        border: 1px solid rgba(55, 54, 54, 0.357);
+        padding: 60px;
+        
+    }
+    
+    .social-accounts{
+        padding-right: 25px;
+        border-right: 1px solid #00000073;
+    position: relative;
+ }
+ .facebook, .google, .x{
+    display: flex;
+    background-color: #517cc0;
+    padding: 18px;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 24px;
+    
+ }
+
+ .facebook-icon, .google-icon, .x-icon{
+    border-right: 1px solid   #00000073;
+    /* margin: 20px; */
+    border-spacing: 200px;
+    padding: 0px 10px;
+ }
+
+ .facebook-text, .google-text, .x-text{
+    margin: 0px 10px;
+
+ }
+ .credentials{
+    margin-left: 25px;
+    
+ }
+
+ .credentials input{
+    padding: 18px 18px 0px 18px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.389);
+    margin: 20px 0px;
+    font-size: 14px;
+ }
+ .credentials h2{
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-top: -20px;
+ }
+
+
+ .form-btn{
+    margin-left: 25px;
+    padding: 6px 24px;
+    font-size: 20px;
+    background-color: #65b1ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+ }
+
+ .or{
+    position: absolute;
+    border-radius: 100%;
+    padding: 8px;
+    border: 1px solid #00000073;
+    color: #00000073;
+    left: 278px;
+    font-size: 14px;
+    background-color: white;
+}
+
+.register{
+    padding: 12px 256px;
+    background-color: rgba(156, 198, 233, 0.401);
+    border: 1px solid rgba(55, 54, 54, 0.357);
+    border-top: none;
+    color: #0a72db;
+    font-weight: 600;
+}
+
+
+
+
+

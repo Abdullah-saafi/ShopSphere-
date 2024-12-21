@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+:root{
+    --primary-color: #003366;
+    --secondary-color: #1275da;
+    --Third-color: #248597;
+    --section-bsckground: #f3f0f0;
+}
+
+
+
+.logo{
+    margin-left: 10px;
+}
+
+.logo img{
+    height: 150px;
+    margin-top: -20px;
+
+}
+
+.logo p{
+    FONT-SIZE: 24PX;
+    color: #adc3c6;
+    margin-top: -50px;
+    font-style: italic;
+    font-family: monospace;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+
+
+.header{
+    position: relative;
+    background-color: #dcdfe345;
+    padding: 10px;
+}
+
+.registration{
+    display: flex;
+    padding: 0px 30px;
+    justify-content: center;
+}
+.register-bonus-img{
+    width: 40%;
+    position: relative;
+}
+.register-bonus-img img{
+    width:100% ;
+}
+
+.register-bonus-img h2{
+    font-weight: 700;
+    font-size: 44px;
+    color: white;
+    left: 60px;
+    position: absolute;
+    top: 290px;
+}
+
+.registration-form{
+    border: 1px solid rgba(49, 47, 47, 0.232);
+    padding: 30px;
+    border-top: none;
+    margin: 0px 20px;
+}
+.registration-form h4{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.177);
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* column-gap: 700px; */
+    gap: 15px;
+    font-size: 14px;
+    color: #7a7272;
+}
+.registration-form h6{
+    margin: 20px 0px 40px 0px;
+    font-size: 14px;
+    color: #7a7272;
+}
+.registration-form p{
+    font-size: 12px;
+    color: #7a7272;
+}
+.form input{
+    padding: 5px 40px;
+    /* border-radius: 5px; */
+    /* border-color: #7a7272; */
+}
+
+.form select{
+    padding: 5px 50px;
+}
+
+.submit input{
+    background-color: #3d8fe0;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 10px 60px;
+}
+
+.terms{
+    color: #65b1ff;
+    font-weight: 400;
+}

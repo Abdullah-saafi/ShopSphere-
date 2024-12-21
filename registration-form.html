@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registration Form</title>
+    <link rel="stylesheet" href="sign-up.css" />
+    <script
+      src="https://kit.fontawesome.com/cb9cbcc3a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <a href="index.html">
+            <figure>
+              <img src="img/logo.png" alt="" />
+              <figcaption>
+                <p>ShopSphere</p>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="registration">
+        <div class="register-bonus-img">
+          <h2>
+            New shoppers get <br />
+            upto 70% off
+          </h2>
+          <img src="img/new shopper.png" alt="" />
+        </div>
+        <div class="registration-form">
+          <h4>NEW CUSTOMER</h4>
+          <h6>Feilds marked * are mandatory</h6>
+          <form class="form" action="">
+            <div class="title">
+              <label for="title">Title*</label><br />
+              <select name="title" id="">
+                <option value="#">Please Select</option>
+                <option value="Male ">Mr.</option>
+                <option value="Female">Mrs.</option>
+                <option value="Not Define">Not Define</option>
+              </select>
+            </div>
+            <div class="f-name">
+              <label for="f-name">First Name*</label><br />
+              <input type="text" name="f-name" />
+            </div>
+            <div class="l-name">
+              <label for="l-name">Last Name*</label><br />
+              <input type="text" name="l-name" />
+            </div>
+            <div class="email">
+              <label for="email">Email Address*</label><br />
+              <input type="email" name="email" id="" />
+            </div>
+            <div class="pswd">
+              <label for="password">Password*</label><br />
+              <input type="password" name="password" minlength="8" id="" />
+            </div>
+            <div class="re-pswd">
+              <label for="re-password">Confirm Password*</label><br />
+              <input type="password" name="re-password" id="" />
+            </div>
+            <div class="pswd-req">
+              <p>
+                The Password should contain minimum 8 <br />
+                Characters.
+              </p>
+            </div>
+            <div class="mobile">
+              <label for="number">Mobile *</label><br />
+              <input type="number" name="number" id="" />
+            </div>
+            <div class="gender">
+              <label for="gender">Gender* </label><br />
+              <select name="gender" id="">
+                <option value="#">Please Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="not-define">Not Define</option>
+              </select>
+            </div>
+            <div class="agree-terms">
+              <input type="checkbox" name="agree-term" id="agree-term" />
+              <label for="agree-term"
+                >I agree to the <span class="terms">Terms of Use</span></label
+              ><br />
+            </div>
+            <div class="submit">
+              <input type="submit" value="REGISTER" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
